@@ -1,0 +1,19 @@
+node {
+    stage('git checkout'){
+        echo'this is git checkout phase'
+        
+    }
+ 
+  stage('build'){
+        echo'this is build phase'
+        
+    }   
+     stage('test'){
+        echo'this is testing phase'
+        
+    }
+     stage('deploy'){
+        echo'this is deploy phase'
+        
+    }
+}
